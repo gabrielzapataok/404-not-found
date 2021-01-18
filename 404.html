@@ -7,15 +7,19 @@
 	<title>example</title>
 </head>
 <body>
-	<div class="container">
-		<img src="polvo-estelar.png" alt="background-01" class="background-01" draggable>
-		<img src="estrellas (2).png" alt="background-02" class="background-02" draggable>
-		<div class="card">
+	<div id="container">
+		<img src="polvo-estelar.png" alt="background-01" class="background" id="background-01">
+		<img src="estrellas (2).png" alt="background-02" class="background" id="background-02">
+		
+		<div id="card">
+			<p id="error">ERROR 404</p>
 			<h1>Vaya!</h1>
 			<p>parece que esta dirección no existe</p>
 			<p>¿Por que no intentas retrocediendo?</p>
-			<button><div></div>volver al inicio de todo</button>
-			<p id="error">ERROR 404</p>
+			<button>
+				<div><!--Brightnes hover effect--></div>
+				<p>volver al inicio de todo</p>
+			</button>
 		</div>
 	</div>
 </body>
