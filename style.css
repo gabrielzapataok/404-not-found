@@ -53,7 +53,7 @@ title{
 	z-index: 4;
 	flex-direction: column;
 	text-align: center;
-	color: white;
+	color: #fff;
 }
 /*Color text selection*/
 #card p::selection, #card h1::selection{
@@ -68,15 +68,15 @@ title{
 	transform: rotate(10deg);
 	font-size: .7em;
 	padding-top:1em;
-	color: #ae323b;
+	color: #FF2020;
 }
 #error::selection{
-	color:white; 
-	background-color:red;
+	color:#FFFFFF; 
+	background:#FF0000;
 }
 #error::-moz-selection {
-	color:white; 
-	background-color:red;
+	color:#FFFFFF; 
+	background:#FF0000;
 }
 
 button{
@@ -96,14 +96,12 @@ button{
 	user-select: none; 
 }
 button div{
+	background:#00FFD150;
 	width: 60px;
 	height: 100%;
-	background:#00FFD1;
-	opacity: .5;
 	position: absolute;
 	left: -65px;
 	transform: skew(-15deg);
-	
 }
 button:hover div{
 	left: calc(100% + 40px);
@@ -117,7 +115,7 @@ button:hover{
 @keyframes rotatation {
   from {
   	-ms-transform: rotate(0deg); /* IE 9 */
-  	transform: rotate(0deg); /* Standard syntax */
+  	transform: rotate(0deg);
   }
   to {
   	-ms-transform: rotate(360deg); /* IE 9 */
@@ -125,7 +123,7 @@ button:hover{
   }
 }
 
-/*Orientación vertical*/
+/*Background responsive*/
 @media screen and (orientation: portrait) {
 	.background-01 {
 		width: auto;
