@@ -125,11 +125,7 @@ button:hover{
 
 /*Background responsive*/
 @media screen and (orientation: portrait) {
-	.background-01 {
-		width: auto;
-		height: 100%;
-	}
-	.background-02 {
+	.background {
 		width: auto;
 		height: 100%;
 	}
